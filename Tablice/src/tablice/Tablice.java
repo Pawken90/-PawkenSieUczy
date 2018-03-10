@@ -16,7 +16,18 @@ public class Tablice {
      */
     public static void main(String[] args) 
     {
+        int a = 0 ; 
+      
+     int[] tablica = new int[51];
+     
+     while (a < tablica.length)
+     {
+         tablica[a] = a * 10 ; 
+         
+         System.out.println(tablica[a]);
         
+         a++;
+     }
         
         
     }
