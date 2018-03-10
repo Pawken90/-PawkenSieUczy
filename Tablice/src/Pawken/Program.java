@@ -23,8 +23,8 @@ public class Program {
         
         
         */
-       TabliczkaMnozenia tabliczka = new TabliczkaMnozenia();
+       Break breakDrukuj = new Break();
       
-       tabliczka.mnozenie(); 
+       breakDrukuj.breakDruk();
     } 
 }
