@@ -23,8 +23,8 @@ public class Program {
         
         
         */
-       TablicaFor tablicaFor = new TablicaFor();
+       TabliczkaMnozenia tabliczka = new TabliczkaMnozenia();
       
-       tablicaFor.petlaFor(); 
+       tabliczka.mnozenie(); 
     } 
 }
