@@ -9,27 +9,22 @@ package tablice;
  *
  * @author pawla
  */
-public class Tablice {
+public class Program {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) 
     {
-        int a = 0 ; 
+       /*
+        Tablica - Jest Typem zmiennej,
+        drukujNaEkran - zmienna/ nazwa zmiennej
+        Tworzysz nowy obiekt typu Tablica i przypisujesz ją do zmiennej
+        
+        
+        */
+       Tablica drukujNaEkran = new Tablica();
       
-     int[] tablica = new int[51];
-     
-     while (a < tablica.length)
-     {
-         tablica[a] = a * 10 ; 
-         
-         System.out.println(tablica[a]);
-        
-         a++;
-     }
-        
-        
-    }
-    
+       drukujNaEkran.printNumbers(); 
+    } 
 }
