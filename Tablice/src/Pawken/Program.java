@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tablice;
+package Pawken;
 
 /**
  *
@@ -23,8 +23,8 @@ public class Program {
         
         
         */
-       Tablica drukujNaEkran = new Tablica();
+       TablicaFor tablicaFor = new TablicaFor();
       
-       drukujNaEkran.printNumbers(); 
+       tablicaFor.petlaFor(); 
     } 
 }
